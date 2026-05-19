@@ -78,3 +78,10 @@ CREATE TABLE Productos (
     FechaCreacion DATETIME NOT NULL
 );
 GO
+
+#Opcional para insertar data a la BD 
+INSERT INTO Productos (Nombre, Precio, FechaCreacion)
+VALUES ('Laptop', 3500.50, GETDATE());
+
+INSERT INTO Productos (Nombre, Precio, FechaCreacion)
+VALUES ('Mouse', 80.00, GETDATE());
